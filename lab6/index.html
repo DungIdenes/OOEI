@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SVG Анимация</title>
+    <meta name="description" content="Home page">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+    <div class="root" style="width:800px; margin: 0 auto;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="792" height="672" version="1" viewBox="0 0 500 400">
+            <style type="text/css" media="screen">
+                <![CDATA[
+                .bottom {
+                    animation: hideshow 2s 0s ease 1;
+                    animation-direction: reverse;
+                    animation-delay: 0.9999s;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
+                .bottom-right {
+                    animation: hideshow 2s 0s ease 1;
+                    animation-direction: reverse;
+                    animation-delay: 0.6666s;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
+                .bottom-left {
+                    animation: hideshow 2s 0s ease 1;
+                    animation-direction: reverse;
+                    animation-delay: 1.3332s;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
+                .top {
+                    animation: hideshow 2s 0s ease 3;
+                    animation-direction: reverse;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
+                .top-right {
+                    animation: hideshow 2s 0s ease 3;
+                    animation-direction: reverse;
+                    animation-delay: 0.3333s;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+                }
+                .top-left {
+                    animation: hideshow 2s 0s ease 1;
+                    animation-direction: reverse;
+                    animation-delay: 1.665s;
+                    animation-fill-mode: both;
+                    animation-iteration-count: infinite;
+              }
+                @keyframes hideshow {
+                    0% {
+                        opacity: 0;
+                    }
+                    16% {
+                      opacity:1;
+                    }
+                    32% {
+                      opacity:1;
+                    }
+                    48% {
+                      opacity:1;
+                    }
+                    64%{
+                      opacity:1;
+                    }
+                    80% {
+                      opacity:1;
+                    }
+                    100% {
+                      opacity:0;
+                    }
+
+                }
+                ]]>
+            </style>
+            <ellipse ry="150" rx="150" id="main" cy="200.000006" cx="290" stroke="#000" fill="none"/>
+            <ellipse class="bottom" ry="75" rx="75" id="svg_23" cy="275" cx="290" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+            <ellipse class="top" ry="75" rx="75" id="svg_24" cy="125" cx="290" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+            <ellipse class="bottom-left"ry="75" rx="75" id="svg_25" cy="240" cx="226" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+            <ellipse class="top-left"ry="75" rx="75" id="svg_26" cy="160" cx="226" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+            <ellipse class="top-right"ry="75" rx="75" id="svg_27" cy="160" cx="353" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+            <ellipse class="bottom-right"ry="75" rx="75" id="svg_28" cy="240" cx="353" fill-opacity="null" stroke-opacity="null" stroke="#000" fill="none"/>
+        </svg>
+    </div>
+</body>
+
+</html>
