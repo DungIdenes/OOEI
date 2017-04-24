@@ -10,7 +10,7 @@
  
 Лабораторная 5. Визуализация данных, полученых из API в формате XML. (еще не готово)
 
-Лабораторная 6. SVG анимация. (<a href="http://dungidenes.github.io/OOEI/Lab1/index.html" target="_blank">клик</a>)
+Лабораторная 6. SVG анимация. (<a href="http://dungidenes.github.io/OOEI/Lab6/index.html" target="_blank">клик</a>)
 
 Лабораторная 7. Буклет в формате ePub. (еще не готово)
 
