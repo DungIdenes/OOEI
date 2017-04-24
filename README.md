@@ -1,6 +1,6 @@
 # Лабораторные работы по ООЕИ
 
-Лабораторная 1. Плакат на тему сайта Математика.укр. (<a href="http://dungidenes.github.io/OOEI/Lab1/index.html">клик</a>)
+Лабораторная 1. Плакат на тему сайта Математика.укр. (<a href="http://dungidenes.github.io/OOEI/Lab1/index.html" target="_blank">клик</a>)
 
 Лабораторная 2 (view). Верстка письма на тему сайта Математика.укр. (<a href="dungidenes.github.io/ooei/lab1">клик</a>)
 
