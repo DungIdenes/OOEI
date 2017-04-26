@@ -9,7 +9,7 @@
 Лабораторная 4. Создание XML документа и визуализация полученных из него данных. (<a href="http://dungidenes.github.io/OOEI/Lab5/index.html" target="_blank">клик</a>)
 
  
-Лабораторная 5. Визуализация данных, полученых из API в формате XML. (еще не готово)
+Лабораторная 5. Визуализация данных, полученых из API в формате XML. (<a href="http://dungidenes.github.io/OOEI/Lab4/index.html" target="_blank">клик</a>)
 
 Лабораторная 6. SVG анимация. (<a href="http://dungidenes.github.io/OOEI/Lab6/index.html" target="_blank">клик</a>)
 
